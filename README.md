@@ -11,17 +11,13 @@ The result includes 6 wordclouds at different scaling,2 tables,details summary a
 
 file descriptions:
 
-Sourcecode:the base source code written in r.
+>>Sourcecode:the base source code written in r.
+>>Details Chats.xlsx:raw unprocessed input of various chats with the bot.
+>>Details Summary.csv:various transaction summary.
+>>Wordcloud:folder consisting of various wordclouds based on the Details charts.
+>>Models:folder consisting of various models used in analysis.
 
-Details Chats.xlsx:raw unprocessed input of various chats with the bot.
-
-Details Summary.csv:various transaction summary.
-
-Wordcloud:folder consisting of various wordclouds based on the Details charts.
-
-Models:folder consisting of various models used in analysis.
-
-conclusion
+Conclusion
 
 based on the detailed analysis of the niki.ai app following improvements can be made
 
