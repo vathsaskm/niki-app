@@ -2,6 +2,7 @@
 Analysis of niki.ai
 
 Report
+
 A visual report with written analysis of this project, but without all the code.
 
 Summary:
