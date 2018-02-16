@@ -1,0 +1,2215 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10500.17.1226.1925                               -->
+<workbook original-version='10.5' source-build='10.5.0 (10500.17.1226.1925)' source-platform='win' version='10.5' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='A Test Sheet (Deals Chats)' inline='true' name='federated.1ntqzbh060vh851e87omc1ctv0fd' version='10.5'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Deals Chats' name='excel-direct.0gu8t9h0nsw8m11h62hna1qgx9e8'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/ThunderDom/Documents/R/R code/Deals Chats.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0gu8t9h0nsw8m11h62hna1qgx9e8' name='A Test Sheet' table='[&apos;A Test Sheet$&apos;]' type='table'>
+          <columns gridOrigin='A1:G5711:no:A1:G5711:0' header='yes' outcome='2'>
+            <column datatype='string' name='CHAT DUMP FOR DATE -' ordinal='0' />
+            <column datatype='string' name='07-Oct-2017 00:15:59 AM' ordinal='1' />
+            <column datatype='string' name='F3' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='F7' ordinal='6' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>CHAT DUMP FOR DATE -</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CHAT DUMP FOR DATE -]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>CHAT DUMP FOR DATE -</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>07-Oct-2017 00:15:59 AM</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[07-Oct-2017 00:15:59 AM]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>07-Oct-2017 00:15:59 AM</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G5711:no:A1:G5711:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Chat Dump For Date -' datatype='string' name='[CHAT DUMP FOR DATE -]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.63482' measure-ordering='alphabetic' measure-percentage='0.36518' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+    <datasource caption='A Test Sheet (Deals Chats) (2)' inline='true' name='federated.1cvvft90ebhf7811p3p460duxo1a' version='10.5'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Deals Chats' name='excel-direct.1viv6gz1h0a9ka1agi7n21owvwgp'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/ThunderDom/Documents/R/R code/Deals Chats.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1viv6gz1h0a9ka1agi7n21owvwgp' name='A Test Sheet' table='[&apos;A Test Sheet$&apos;]' type='table'>
+          <columns gridOrigin='A1:G5711:no:A1:G5711:0' header='yes' outcome='2'>
+            <column datatype='string' name='CHAT DUMP FOR DATE -' ordinal='0' />
+            <column datatype='string' name='07-Oct-2017 00:15:59 AM' ordinal='1' />
+            <column datatype='string' name='F3' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='F7' ordinal='6' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>CHAT DUMP FOR DATE -</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CHAT DUMP FOR DATE -]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>CHAT DUMP FOR DATE -</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>07-Oct-2017 00:15:59 AM</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[07-Oct-2017 00:15:59 AM]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>07-Oct-2017 00:15:59 AM</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G5711:no:A1:G5711:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Chat Dump For Date -' datatype='string' name='[CHAT DUMP FOR DATE -]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.642222' measure-ordering='alphabetic' measure-percentage='0.357778' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+    <datasource caption='Deals summary (2) (2)' inline='true' name='federated.1gqmlj60x9ajo31dtjxdm1th2t98' version='10.5'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Deals summary (2)' name='textscan.1jfefh4197qqdu1b5c3vu1tcnrv3'>
+            <connection class='textscan' directory='C:/Users/ThunderDom/Documents/R/R code' filename='Deals summary (2).csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1jfefh4197qqdu1b5c3vu1tcnrv3' name='Deals summary (2).csv' table='[Deals summary (2)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='Segment' ordinal='0' />
+            <column datatype='integer' name='Deals Option Selected' ordinal='1' />
+            <column datatype='integer' name='Location Picked' ordinal='2' />
+            <column datatype='integer' name='Recommendations viewed' ordinal='3' />
+            <column datatype='integer' name='Deal Details Loaded' ordinal='4' />
+            <column datatype='integer' name='Offer added' ordinal='5' />
+            <column datatype='integer' name='Deal Selected' ordinal='6' />
+            <column datatype='integer' name='Payment Options Viewed' ordinal='7' />
+            <column datatype='integer' name='Succesful Payment' ordinal='8' />
+            <column datatype='integer' name='Order Completed' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Segment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Segment]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Segment</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deals Option Selected</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deals Option Selected]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Deals Option Selected</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location Picked</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Location Picked]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Location Picked</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Recommendations viewed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Recommendations viewed]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Recommendations viewed</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deal Details Loaded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deal Details Loaded]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Deal Details Loaded</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offer added</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Offer added]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Offer added</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deal Selected</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deal Selected]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Deal Selected</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Payment Options Viewed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Payment Options Viewed]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Payment Options Viewed</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Succesful Payment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Succesful Payment]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Succesful Payment</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Completed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Order Completed]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Order Completed</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.267157' measure-ordering='alphabetic' measure-percentage='0.732843' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+    <datasource caption='A Test Sheet (Deals Chats) (3)' inline='true' name='federated.0yxz86k0tkxx9e187ejpk054y4si' version='10.5'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Deals Chats' name='excel-direct.1p5nyau0cekrpl1236kge0y5wtk3'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/ThunderDom/Documents/R/R code/Deals Chats.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1p5nyau0cekrpl1236kge0y5wtk3' name='A Test Sheet' table='[&apos;A Test Sheet$&apos;]' type='table'>
+          <columns gridOrigin='A1:G5711:no:A1:G5711:0' header='yes' outcome='2'>
+            <column datatype='string' name='CHAT DUMP FOR DATE -' ordinal='0' />
+            <column datatype='string' name='07-Oct-2017 00:15:59 AM' ordinal='1' />
+            <column datatype='string' name='F3' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='F7' ordinal='6' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>CHAT DUMP FOR DATE -</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CHAT DUMP FOR DATE -]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>CHAT DUMP FOR DATE -</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>07-Oct-2017 00:15:59 AM</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[07-Oct-2017 00:15:59 AM]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>07-Oct-2017 00:15:59 AM</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[A Test Sheet]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G5711:no:A1:G5711:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Chat Dump For Date -' datatype='string' name='[CHAT DUMP FOR DATE -]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.435268' measure-ordering='alphabetic' measure-percentage='0.564732' show-structure='true' user-set-layout='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+    <datasource caption='Deals summary (2) (3)' inline='true' name='federated.067td7i0ln1xsp1fwk82y0jnk4xx' version='10.5'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Deals summary (2)' name='textscan.10q81rj02frhlr1dqs7wa0jq514i'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:\Users\ThunderDom\Documents\R\R code\Deals summary (2).csv' dataRefreshTime='' directory='C:/Users/ThunderDom/Documents/R/R code' filename='C:/Users/THUNDE~1/AppData/Local/Temp/TableauTemp/0z645ib1t62lhq18ufj3j0ukzaff/Deals summary (2).csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.10q81rj02frhlr1dqs7wa0jq514i' name='Deals summary (2).csv' table='[Deals summary (2)#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:J137:no:A1:J137:1' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='Segment' ordinal='0' />
+            <column datatype='integer' name='Deals Option Selected' ordinal='1' />
+            <column datatype='integer' name='Location Picked' ordinal='2' />
+            <column datatype='integer' name='Recommendations viewed' ordinal='3' />
+            <column datatype='integer' name='Deal Details Loaded' ordinal='4' />
+            <column datatype='integer' name='Offer added' ordinal='5' />
+            <column datatype='real' name='Deal Selected' ordinal='6' />
+            <column datatype='integer' name='Payment Options Viewed' ordinal='7' />
+            <column datatype='integer' name='Succesful Payment' ordinal='8' />
+            <column datatype='integer' name='Order Completed' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Segment</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Segment]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Segment</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deals Option Selected</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deals Option Selected]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Deals Option Selected</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location Picked</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Location Picked]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Location Picked</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Recommendations viewed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Recommendations viewed]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Recommendations viewed</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deal Details Loaded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deal Details Loaded]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Deal Details Loaded</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offer added</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Offer added]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Offer added</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deal Selected</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Deal Selected]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Deal Selected</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Payment Options Viewed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Payment Options Viewed]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Payment Options Viewed</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Succesful Payment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Succesful Payment]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Succesful Payment</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Completed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Order Completed]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Order Completed</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J137:no:A1:J137:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>1267</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.255814' measure-ordering='alphabetic' measure-percentage='0.744186' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+    <datasource caption='Deals summary (2)' inline='true' name='federated.1isf1ke1i7a9bt1dmj6nl1pom2fn' version='10.5'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Deals summary (2)' name='textscan.0xpugjq0543ke918k57401vm7jrw'>
+            <connection class='textscan' directory='C:/Users/ThunderDom/Documents/R/R code' filename='Deals summary (2).csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation join='full' type='join'>
+          <relation connection='textscan.0xpugjq0543ke918k57401vm7jrw' name='Deals summary (2).csv' table='[Deals summary (2)#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+              <column datatype='string' name='Segment' ordinal='0' />
+              <column datatype='integer' name='Deals Option Selected' ordinal='1' />
+              <column datatype='integer' name='Location Picked' ordinal='2' />
+              <column datatype='integer' name='Recommendations viewed' ordinal='3' />
+              <column datatype='integer' name='Deal Details Loaded' ordinal='4' />
+              <column datatype='integer' name='Offer added' ordinal='5' />
+              <column datatype='integer' name='Deal Selected' ordinal='6' />
+              <column datatype='integer' name='Payment Options Viewed' ordinal='7' />
+              <column datatype='integer' name='Succesful Payment' ordinal='8' />
+              <column datatype='integer' name='Order Completed' ordinal='9' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0xpugjq0543ke918k57401vm7jrw' name='IMDB_data.csv' table='[IMDB_data#csv]' type='table'>
+            <columns character-set='windows-1252' header='yes' locale='en_GB' separator=','>
+              <column datatype='string' name='Plot' ordinal='0' />
+              <column datatype='string' name='Title' ordinal='1' />
+              <column datatype='integer' name='imdbVotes' ordinal='2' />
+              <column datatype='string' name='Poster' ordinal='3' />
+              <column datatype='integer' name='imdbRating' ordinal='4' />
+              <column datatype='string' name='Genre' ordinal='5' />
+              <column datatype='string' name='imdbID' ordinal='6' />
+              <column datatype='integer' name='Year' ordinal='7' />
+              <column datatype='string' name='Language' ordinal='8' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Segment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Segment]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Segment</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deals Option Selected</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deals Option Selected]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Deals Option Selected</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location Picked</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Location Picked]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Location Picked</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Recommendations viewed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Recommendations viewed]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Recommendations viewed</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deal Details Loaded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deal Details Loaded]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Deal Details Loaded</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offer added</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Offer added]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Offer added</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deal Selected</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deal Selected]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Deal Selected</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Payment Options Viewed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Payment Options Viewed]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Payment Options Viewed</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Succesful Payment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Succesful Payment]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Succesful Payment</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Completed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Order Completed]</local-name>
+            <parent-name>[Deals summary (2).csv]</parent-name>
+            <remote-alias>Order Completed</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[IMDB_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;ibm-5348_P100-1997&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Plot</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Plot]</local-name>
+            <parent-name>[IMDB_data.csv]</parent-name>
+            <remote-alias>Plot</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Title]</local-name>
+            <parent-name>[IMDB_data.csv]</parent-name>
+            <remote-alias>Title</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>imdbVotes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[imdbVotes]</local-name>
+            <parent-name>[IMDB_data.csv]</parent-name>
+            <remote-alias>imdbVotes</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Poster</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Poster]</local-name>
+            <parent-name>[IMDB_data.csv]</parent-name>
+            <remote-alias>Poster</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>imdbRating</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[imdbRating]</local-name>
+            <parent-name>[IMDB_data.csv]</parent-name>
+            <remote-alias>imdbRating</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Genre</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Genre]</local-name>
+            <parent-name>[IMDB_data.csv]</parent-name>
+            <remote-alias>Genre</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>imdbID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[imdbID]</local-name>
+            <parent-name>[IMDB_data.csv]</parent-name>
+            <remote-alias>imdbID</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[IMDB_data.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Language</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Language]</local-name>
+            <parent-name>[IMDB_data.csv]</parent-name>
+            <remote-alias>Language</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='Imdb ID' datatype='string' name='[imdbID]' role='dimension' type='nominal' />
+      <column caption='Imdb Rating' datatype='integer' name='[imdbRating]' role='measure' type='quantitative' />
+      <column caption='Imdb Votes' datatype='integer' name='[imdbVotes]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.631148' measure-ordering='alphabetic' measure-percentage='0.368852' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+    <datasource caption='Deals summary (2) (4)' inline='true' name='federated.15hw23q111kzmi1416npp05fe69w' version='10.5'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Deals summary (2)' name='textscan.1n405ss1w9s7hn14eeiio141whng'>
+            <connection class='textscan' directory='C:/Users/ThunderDom/Documents/R/R code' filename='Deals summary.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1n405ss1w9s7hn14eeiio141whng' name='Deals summary.csv' table='[Deals summary#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='Segment' ordinal='0' />
+            <column datatype='integer' name='Deals Option Selected' ordinal='1' />
+            <column datatype='integer' name='Location Picked' ordinal='2' />
+            <column datatype='integer' name='Recommendations viewed' ordinal='3' />
+            <column datatype='integer' name='Deal Details Loaded' ordinal='4' />
+            <column datatype='integer' name='Offer added' ordinal='5' />
+            <column datatype='integer' name='Deal Selected' ordinal='6' />
+            <column datatype='integer' name='Payment Options Viewed' ordinal='7' />
+            <column datatype='integer' name='Succesful Payment' ordinal='8' />
+            <column datatype='integer' name='Order Completed' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Deals summary.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Segment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Segment]</local-name>
+            <parent-name>[Deals summary.csv]</parent-name>
+            <remote-alias>Segment</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deals Option Selected</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deals Option Selected]</local-name>
+            <parent-name>[Deals summary.csv]</parent-name>
+            <remote-alias>Deals Option Selected</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location Picked</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Location Picked]</local-name>
+            <parent-name>[Deals summary.csv]</parent-name>
+            <remote-alias>Location Picked</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Recommendations viewed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Recommendations viewed]</local-name>
+            <parent-name>[Deals summary.csv]</parent-name>
+            <remote-alias>Recommendations viewed</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deal Details Loaded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deal Details Loaded]</local-name>
+            <parent-name>[Deals summary.csv]</parent-name>
+            <remote-alias>Deal Details Loaded</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offer added</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Offer added]</local-name>
+            <parent-name>[Deals summary.csv]</parent-name>
+            <remote-alias>Offer added</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deal Selected</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deal Selected]</local-name>
+            <parent-name>[Deals summary.csv]</parent-name>
+            <remote-alias>Deal Selected</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Payment Options Viewed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Payment Options Viewed]</local-name>
+            <parent-name>[Deals summary.csv]</parent-name>
+            <remote-alias>Payment Options Viewed</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Succesful Payment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Succesful Payment]</local-name>
+            <parent-name>[Deals summary.csv]</parent-name>
+            <remote-alias>Succesful Payment</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Completed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Order Completed]</local-name>
+            <parent-name>[Deals summary.csv]</parent-name>
+            <remote-alias>Order Completed</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Deal Details Loaded]' role='measure' type='quantitative' />
+      <column aggregation='None' datatype='integer' name='[Deal Selected (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[Deal Selected]' peg='0' size='5.86' />
+      </column>
+      <column datatype='integer' name='[Deal Selected]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Deals Option Selected]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Location Picked]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[Offer added]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Order Completed]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Payment Options Viewed]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Recommendations viewed]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Segment]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Succesful Payment]' role='measure' type='quantitative' />
+      <column-instance column='[Deal Details Loaded]' derivation='Attribute' name='[attr:Deal Details Loaded:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Deal Details Loaded]' derivation='None' name='[none:Deal Details Loaded:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Segment]' derivation='None' name='[none:Segment:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Deal Details Loaded]' derivation='Sum' name='[sum:Deal Details Loaded:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Deal Selected]' derivation='Sum' name='[sum:Deal Selected:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Deals Option Selected]' derivation='Sum' name='[sum:Deals Option Selected:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Location Picked]' derivation='Sum' name='[sum:Location Picked:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Offer added]' derivation='Sum' name='[sum:Offer added:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Order Completed]' derivation='Sum' name='[sum:Order Completed:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Payment Options Viewed]' derivation='Sum' name='[sum:Payment Options Viewed:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Recommendations viewed]' derivation='Sum' name='[sum:Recommendations viewed:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Succesful Payment]' derivation='Sum' name='[sum:Succesful Payment:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.270492' measure-ordering='alphabetic' measure-percentage='0.729508' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[attr:Deal Details Loaded:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[none:Deal Details Loaded:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Deal Details Loaded:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Number of Records:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Location Picked:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Recommendations viewed:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Order Completed:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Succesful Payment:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Deals Option Selected:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Offer added:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Deal Selected:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Payment Options Viewed:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Segment:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;03e1507305802030&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;2.35151E+15&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;5.20151E+15&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;7.41151E+15&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;a101507260220743&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;ca81507275244180&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;ec61507228719559&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;$overall&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;4bc1507279862165&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;6.68151E+15&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;78b1507303206510&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;8e31507284446432&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;b531507387766126&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;d891507232798279&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;1a11507263770519&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;4fd1507268214039&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;6d91507273163348&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;9.95151E+15&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;94f1507269406661&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;c0b1507254624461&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;e501507264318055&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;2da1507264465398&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;42e1507269039067&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;5c91507285888705&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;7cb1507230464781&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;b0c1507381945095&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;cf91507279454645&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;f961507260967285&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;2.93151E+15&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;22a1507306338671&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;5.40151E+15&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;7.58151E+15&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;aca1507267243007&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;ce11507310662345&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;eda1507313679243&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;1a31507258322821&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;5.05151E+15&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;6dd1507300812194&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;96f1507290955287&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;9a21507276162433&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;c8b1507271244740&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;ea51507235165029&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;4.17151E+15&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;6.22151E+15&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;74a1507297387823&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;8b21507307523485&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;b411507272144804&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;d631507256102825&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;0c21507304696213&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;4cb1507255673024&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;6.85151E+15&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;88f1507256448659&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;9.13151E+15&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;ba21507292909593&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;e9d1507260291308&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;3f01507283199425&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;5f11507287916561&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;63b1507266464185&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;7f21507307643457&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;b191507263784203&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;d231507270439397&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;2.16151E+15&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;5.15073E+13&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;7.31151E+15&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;9b91507301009483&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;b451507271000417&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;c541507275030752&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;ea91507307672657&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;3.86151E+15&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;49c1507397517392&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;5d21507290038243&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;7d11507246098821&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;b2a1507294154611&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;d1d1507292955116&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;fb71507288385158&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;3d21507279794947&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;54e1507242289262&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;5d91507313717989&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;7e71507275689629&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;b4b1507228907403&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;d8c1507301510680&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;ffd1507272615825&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;3f41507228663727&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;6.00151E+15&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;67d1507291333789&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;8.52151E+15&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;b391507297391642&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;d571507245278825&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;4.48151E+15&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;4aa1507272694259&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;6.63151E+15&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;75f1507296026837&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;8e11507309066484&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;d821507234182152&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;2.95151E+15&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;27e1507311286623&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;5.52151E+15&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;7.71507E+14&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;ae11507255562253&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;cea1507305326311&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;f301507278304673&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;2.17151E+15&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;5.15151E+15&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;7.36151E+15&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;9ea1507305571131&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;a7c1507268806213&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;c921507250991093&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;eb71507280640235&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;1.04151E+15&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;4de1507309266077&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;6.93151E+15&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;9.33151E+15&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;93a1507313184056&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;bb61507292005361&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;e001507274439505&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;3d51507234194786&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;5f01507262000365&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;60d1507277303287&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;7ed1507258139278&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;b121507375337959&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;d071507312209054&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;28b1507273433155&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;2ac1507272951321&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;5c81507304986885&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;7a71507300988665&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;af51507261321785&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;cf71507312755215&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;f871507303572918&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;1.24151E+15&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;4f01507353000325&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;6bc1507274468664&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;9.56151E+15&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;93f1507269887635&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;bd41507297295899&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;e481507258282619&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Deals summary (2)' name='federated.1isf1ke1i7a9bt1dmj6nl1pom2fn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1isf1ke1i7a9bt1dmj6nl1pom2fn'>
+            <column datatype='integer' name='[Recommendations viewed]' role='measure' type='quantitative' />
+            <column-instance column='[Recommendations viewed]' derivation='Sum' name='[sum:Recommendations viewed:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.1isf1ke1i7a9bt1dmj6nl1pom2fn].[sum:Recommendations viewed:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Times New Roman' fontsize='24'>Summary Deatils</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Deals summary (2) (4)' name='federated.15hw23q111kzmi1416npp05fe69w' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15hw23q111kzmi1416npp05fe69w'>
+            <column datatype='integer' name='[Deal Selected]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Deals Option Selected]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Location Picked]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='integer' name='[Offer added]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Order Completed]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Payment Options Viewed]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Recommendations viewed]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Segment]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Succesful Payment]' role='measure' type='quantitative' />
+            <column-instance column='[Segment]' derivation='None' name='[none:Segment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Deal Selected]' derivation='Sum' name='[sum:Deal Selected:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Deals Option Selected]' derivation='Sum' name='[sum:Deals Option Selected:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Location Picked]' derivation='Sum' name='[sum:Location Picked:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Offer added]' derivation='Sum' name='[sum:Offer added:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Order Completed]' derivation='Sum' name='[sum:Order Completed:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Payment Options Viewed]' derivation='Sum' name='[sum:Payment Options Viewed:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Recommendations viewed]' derivation='Sum' name='[sum:Recommendations viewed:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Succesful Payment]' derivation='Sum' name='[sum:Succesful Payment:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15hw23q111kzmi1416npp05fe69w].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Deals Option Selected:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Location Picked:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Recommendations viewed:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Number of Records:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Offer added:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Deal Selected:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Payment Options Viewed:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Succesful Payment:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <sort class='manual' column='[federated.15hw23q111kzmi1416npp05fe69w].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Deals Option Selected:qk]&quot;</bucket>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Location Picked:qk]&quot;</bucket>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Recommendations viewed:qk]&quot;</bucket>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Number of Records:qk]&quot;</bucket>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Offer added:qk]&quot;</bucket>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Deal Selected:qk]&quot;</bucket>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Payment Options Viewed:qk]&quot;</bucket>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Succesful Payment:qk]&quot;</bucket>
+              <bucket>&quot;[federated.15hw23q111kzmi1416npp05fe69w].[sum:Order Completed:qk]&quot;</bucket>
+            </dictionary>
+          </sort>
+          <slices>
+            <column>[federated.15hw23q111kzmi1416npp05fe69w].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.15hw23q111kzmi1416npp05fe69w].[Multiple Values]' value='68' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.15hw23q111kzmi1416npp05fe69w].[:Measure Names]' value='82' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.15hw23q111kzmi1416npp05fe69w].[none:Segment:nk]' />
+              <text column='[federated.15hw23q111kzmi1416npp05fe69w].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.6591712236404419' />
+                <format attr='mark-color' value='#555555' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.15hw23q111kzmi1416npp05fe69w].[Multiple Values]</rows>
+        <cols>[federated.15hw23q111kzmi1416npp05fe69w].[:Measure Names]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones use-insets='false' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='156'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints />
+      <active id='-1' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='100'>
+            <card pane-specification-id='2' param='[federated.15hw23q111kzmi1416npp05fe69w].[none:Segment:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.15hw23q111kzmi1416npp05fe69w].[:Measure Names]</field>
+            <field>[federated.15hw23q111kzmi1416npp05fe69w].[none:Segment:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='79' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+      SgAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
