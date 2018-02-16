@@ -12,15 +12,15 @@ The result includes 6 wordclouds at different scaling,2 tables,details summary a
 
 file descriptions:
 
-Sourcecode:the base source code written in r.
++ Sourcecode:the base source code written in r.
 
-Details Chats.xlsx:raw unprocessed input of various chats with the bot.
++ Details Chats.xlsx:raw unprocessed input of various chats with the bot.
 
-Details Summary.csv:various transaction summary.
++ Details Summary.csv:various transaction summary.
 
-Wordcloud:folder consisting of various wordclouds based on the Details charts.
++ Wordcloud:folder consisting of various wordclouds based on the Details charts.
 
-Models:folder consisting of various models used in analysis.
++ Models:folder consisting of various models used in analysis.
 
 
 
@@ -28,12 +28,12 @@ Conclusion:
 
 based on the detailed analysis of the niki.ai app following improvements can be made
 
-1.Customer support must be enhanced for various customer related issues.
+1. Customer support must be enhanced for various customer related issues.
 
-2.The payment gateway needs a swiftly interface and has to be error free to compete with the other competitors in the market.
+1. The payment gateway needs a swiftly interface and has to be error free to compete with the other competitors in the market.
 
-3.based on the wordcloud analysis the interaction with the bot 
+1. based on the wordcloud analysis the interaction with the bot 
 
-a.The interactin with the bot associated with the word "available,location,deals" has to be concentrated more and the answers must be 
+1. The interactin with the bot associated with the word "available,location,deals" has to be concentrated more and the answers must be 
 in accordane with the customer satisfaction.
 
