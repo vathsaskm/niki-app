@@ -34,6 +34,6 @@ based on the detailed analysis of the niki.ai app following improvements can be 
 
 3.based on the wordcloud analysis the interaction with the bot 
 
-a.the interactin with the bot associated with the word "available,location,deals" has to be concentrated more and the answers must be 
+a.The interactin with the bot associated with the word "available,location,deals" has to be concentrated more and the answers must be 
 in accordane with the customer satisfaction.
 
