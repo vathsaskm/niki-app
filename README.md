@@ -33,6 +33,7 @@ based on the detailed analysis of the niki.ai app following improvements can be 
 2.The payment gateway needs a swiftly interface and has to be error free to compete with the other competitors in the market.
 
 3.based on the wordcloud analysis with the interaction with the bot 
+
 a.the interactin with the bot associated with the word "available,location,deals" has to be concentrated more and the answers must be 
 in accordane with the customer satisfaction.
 
